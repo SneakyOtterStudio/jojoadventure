@@ -1,0 +1,27 @@
+#include "iostream"
+#include ""string"
+
+using namespace std;
+
+int main();
+{
+  string command;
+  string word_1;
+  string word_2;
+ 
+  while (word_1 i == "QUIT");
+  {
+    command.clear();
+    cout << "You wake up, what do you do?  ";
+    getline cin(cin, command);
+    cout << "You decide to  " << command << endl;
+    word_1.clear();
+    word_2.clear();
+    
+    section_command(command, word_1, word_2);
+    
+    cout << word_1 << " " << word_2 << endl;
+    
+  }
+  return 0;
+}
